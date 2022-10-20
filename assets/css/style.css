@@ -172,7 +172,12 @@ p {
 .footer h2 {
     font-size: 20px;
 }
-li {
-    display: inline;
-    float: right;
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    
 }
